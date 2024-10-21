@@ -30,3 +30,30 @@ h1 {
 .mdi-view-dashboard {
     font-size: 34px;
 }
+
+.page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    justify-content: flex-start;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+h2 {
+    padding-left: 20px;
+    font-weight:500;
+}
+
+.nav {
+    font-size: 28px;
+}

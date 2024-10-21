@@ -16,6 +16,7 @@ body, html {
     align-items: left;
     padding-left: 30px;
     box-sizing: border-box;
+    padding-top: 15px;
 }
 
 .logo {
@@ -62,13 +63,32 @@ h2 {
     font-size: 28px;
 }
 
+.main-content {
+    width: 85vw;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
 .search-container {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 400px;
     border: 2px solid #333;
     border-radius: 25px;
     padding: 5px 10px;
+    margin-left: 75px;
 }
 
 .search-container input {
@@ -84,4 +104,28 @@ h2 {
     color: #333;
     margin-right: 10px;
     font-size: 20px;
+}
+
+.misc {
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+}
+
+.misc i {
+    font-size: 45px;
+}
+
+.circle-img {
+    border-radius: 50%;
+    background-image: url('tony-stark.jpg');
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    margin-left: 50px;
+}
+
+h4 {
+    font-size: 26px;
+    margin-left: 50px;
 }

@@ -109,23 +109,133 @@ h2 {
 .misc {
     display: flex;
     align-items: center;
-    margin-right: 75px;
+    margin-right: 50px;
 }
 
 .misc i {
-    font-size: 45px;
+    font-size: 28px;
 }
 
 .circle-img {
     border-radius: 50%;
     background-image: url('tony-stark.jpg');
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     background-size: cover;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 h4 {
-    font-size: 26px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    box-shadow: 0px 15px 10px -15px #111; 
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     margin-left: 50px;
+}
+
+.profile .circle-img {
+    width: 100px;
+    height: 100px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile h2 {
+    margin: 0;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 0;
+}
+
+.profile p {
+    margin: 0;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.action-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+button {
+    border-radius: 35px;
+    background-color: #8101d6;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(190, 56, 221, 0.2);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(224, 92, 254);
+    box-shadow: 0 8px 16px rgba(190, 56, 221, 0.2);
+    transform: translateY(-5px);
+}
+
+.projects-section {
+    position: absolute;
+    background-color: #929292;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-left: 10px solid orange;
+    width: 20vw;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.3);
+    align-items: flex-end;
+    padding: 15px 30px 20px 30px;
+}
+
+.content {
+    text-align: left;
+}
+
+.project-card p {
+    color: rgb(101, 101, 101);
+    font-size: 18px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.project-card i {
+    font-size: 26px;
+    opacity: 0.75;
 }
